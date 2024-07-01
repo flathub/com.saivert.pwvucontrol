@@ -59,11 +59,14 @@
             "name": "pwvucontrol",
             "builddir": true,
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dsandboxed=true"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "33af20bdda94a61f10efa0f74fa48ec8f4f94fb7ac3e3b83e23a63efa7fc6705",
-                    "url": "https://github.com/saivert/pwvucontrol/releases/download/0.4.3/pwvucontrol-0.4.3.tar.xz"
+                    "sha256": "cda7944cc2cb92e57185c959d155c9d44dc925abf402c669aed364efe3187495",
+                    "url": "https://github.com/saivert/pwvucontrol/releases/download/0.4.5/pwvucontrol-0.4.5.tar.xz"
                 }
             ]
         }
