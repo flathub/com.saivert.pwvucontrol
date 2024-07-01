@@ -13,7 +13,9 @@
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland",
-        "--filesystem=xdg-run/pipewire-0"
+        "--filesystem=xdg-run/pipewire-0",
+        "--filesystem=/var/lib/flatpak:ro",
+        "--env=XDG_DATA_DIRS=/app/share:/usr/share:/usr/share/runtime/share:/run/host/user-share:/var/lib/flatpak/exports/share:/run/host/share"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm16/bin",
