@@ -14,8 +14,9 @@
         "--device=dri",
         "--socket=wayland",
         "--filesystem=xdg-run/pipewire-0",
+        "--filesystem=host-os",
         "--filesystem=/var/lib/flatpak:ro",
-        "--env=XDG_DATA_DIRS=/app/share:/usr/share:/usr/share/runtime/share:/run/host/user-share:/var/lib/flatpak/exports/share:/run/host/share"
+        "--env=XDG_DATA_DIRS=/app/share:/usr/share:/usr/share/runtime/share:/run/host/user-share:/var/lib/flatpak/exports/share:/run/host/usr/local/share:/run/host/share"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm16/bin",
