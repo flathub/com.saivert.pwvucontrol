@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "cda7944cc2cb92e57185c959d155c9d44dc925abf402c669aed364efe3187495",
-                    "url": "https://github.com/saivert/pwvucontrol/releases/download/0.4.5/pwvucontrol-0.4.5.tar.xz"
+                    "sha256": "607c13f07e32f9c9c67558349eb5cac414e8fd3100f324d9901ddaba274d0522",
+                    "url": "https://github.com/saivert/pwvucontrol/releases/download/0.4.6/pwvucontrol-0.4.6.tar.xz"
                 }
             ]
         }
