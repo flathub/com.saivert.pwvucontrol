@@ -6,6 +6,7 @@
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
         "org.freedesktop.Sdk.Extension.llvm16"
+        
     ],
     "command": "pwvucontrol",
     "finish-args": [
