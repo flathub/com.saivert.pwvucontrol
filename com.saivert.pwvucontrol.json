@@ -1,7 +1,7 @@
 {
     "app-id": "com.saivert.pwvucontrol",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "014de321d1c691585ee12ec65ab2c1571be09f38455ebeece5ad70959b5ae7bd",
-                    "url": "https://github.com/saivert/pwvucontrol/releases/download/0.4.9/pwvucontrol-0.4.9.tar.xz"
+                    "sha256": "5afa1673bd8d29bdb7c7859c945ddbc28291a0de2a64e4a1859e04c83cf489da",
+                    "url": "https://github.com/saivert/pwvucontrol/releases/download/0.5.0/pwvucontrol-0.5.0.tar.xz"
                 }
             ]
         }
