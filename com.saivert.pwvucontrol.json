@@ -31,6 +31,8 @@
         "/include",
         "/lib/girepository-1.0",
         "/lib/pkgconfig",
+        "/share/bash-completion",
+        "/share/doc",
         "/share/gir-1.0",
         "/share/zsh"
     ],
