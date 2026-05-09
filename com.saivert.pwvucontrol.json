@@ -53,18 +53,6 @@
                 }
             ]
         },
-                {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": ["*"],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler",
-                    "tag": "v0.18.0"
-                }
-            ]
-        },
         {
             "name": "pwvucontrol",
             "builddir": true,
