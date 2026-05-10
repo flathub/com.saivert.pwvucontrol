@@ -1,7 +1,7 @@
 {
     "app-id": "com.saivert.pwvucontrol",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
@@ -14,7 +14,8 @@
         "--device=dri",
         "--socket=wayland",
         "--socket=pulseaudio",
-        "--filesystem=xdg-run/pipewire-0"
+        "--filesystem=xdg-run/pipewire-0",
+        "--env=WIREPLUMBER_DEBUG=0"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm20/bin",
@@ -30,6 +31,8 @@
         "/include",
         "/lib/girepository-1.0",
         "/lib/pkgconfig",
+        "/share/bash-completion",
+        "/share/doc",
         "/share/gir-1.0",
         "/share/zsh"
     ],
@@ -47,12 +50,9 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "0.4.17",
-                    "url": "https://github.com/PipeWire/wireplumber.git"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-node-cast-proxy-to-pw_node-when-calling-pw_node-func.patch"
+                    "url": "https://github.com/PipeWire/wireplumber.git",
+                    "tag": "0.5.14",
+                    "commit": "07e730b279ac7a520699ae9f6b0797848a731b30"
                 }
             ]
         },
@@ -66,8 +66,9 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "0.5.1",
-                    "url": "https://github.com/saivert/pwvucontrol.git"
+                    "url": "https://github.com/saivert/pwvucontrol.git",
+                    "tag": "0.5.2",
+                    "commit": "8894fa16a105d8490db62e5d40541d0ff8bab5f6"
                 },
                 "cargo-sources.json",
                 {
