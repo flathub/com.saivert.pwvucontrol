@@ -67,8 +67,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/saivert/pwvucontrol.git",
-                    "tag": "0.5.2",
-                    "commit": "8894fa16a105d8490db62e5d40541d0ff8bab5f6"
+                    "tag": "0.5.3",
+                    "commit": "fd5c9d1e5458b625d45e4159634b5b072f66cde1"
                 },
                 "cargo-sources.json",
                 {
